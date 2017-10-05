@@ -1,15 +1,18 @@
 import { NgModule } from '@angular/core';
 
 import { HeaderComponent } from './component/header/header.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   imports: [],
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   providers: [],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ]
 })
 export class LayoutModule { }
